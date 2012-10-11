@@ -1,0 +1,12 @@
+<div class="left-container">
+<h2>Search</h2>
+<input type="search" name="" placeholder="Search songs here.." style="padding: 5px; width: 90%" />
+<input type="submit" value="Search" style="padding: 6px;" />
+</div>
+
+<div class="right-container">
+	<?php
+		$this->load->view('search');
+	?>
+</div>
+<br class="clear" />

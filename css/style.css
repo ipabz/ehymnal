@@ -1,0 +1,154 @@
+body {
+	margin: 0px 0px 0px 0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;	
+	/*background-image: url(../images/sheet_music_picture.png);
+	background-repeat: repeat-x;*/
+	background:#B88158;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 940px;
+	box-shadow: 0px 0px 5px #990000;
+	-moz-box-shadow: 0px 0px 5px #990000;
+	-webkit-box-shadow: 0px 0px 5px #990000;
+	background: #fff;
+}
+
+#header {
+	background: url(../images/header3.png) no-repeat;
+	height: 107px;
+}
+
+#main-navigation {
+	padding: 8px 15px 8px 15px;
+	/*background: #315919;*/
+	background:#990000
+}
+
+#main-navigation a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+	margin-right: 20px;
+}
+
+.ban {
+	background: #fff;
+}
+
+#main-navigation a:hover {
+	text-decoration: underline;	
+}
+
+#main {
+	background: #fff;
+	min-height: 500px;	
+}
+
+#footer {
+	background: #990000;
+	padding: 8px;
+	color: #ccc;
+}
+
+a {
+	text-decoration: none;	
+}
+
+.mod-header {
+	background: #B5975B;   
+	padding: 5px;
+	font-weight: bold;	
+	color: #990000;
+}
+
+.left-container {
+	float: left;
+	width: 650px;
+	padding: 10px;
+}
+
+.right-container {
+	float: right;
+	width: 250px;
+	padding: 10px;
+	background:#F5F5F5;
+	box-shadow: 0px 3px 4px #ccc;
+	-moz-box-shadow: 0px 3px 4px #ccc;
+	-webkit-box-shadow: 0px 3px 4px #ccc;
+}
+
+.clear {
+	clear: both;	
+}
+
+.mod-contents {
+	padding: 10px;	
+}
+
+.story-title a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+.story-title {
+	margin-bottom: 5px;	
+}
+
+.story-content {
+	font-size: .9em;	
+}
+
+.story-read-title {
+	font-size: 2em;	
+}
+
+.story-read-content {
+	border: 1px solid #999;
+	padding: 10px;	
+	margin-top: 10px;
+	margin-bottom: 20px;
+	box-shadow: 4px 4px 4px #333;
+	height: 400px;
+	overflow: auto;
+}
+
+.cat {
+	margin: 10px 0px 10px 0px;	
+}
+
+.date-added {
+	font-size: 10px;	
+}
+
+.breadcrumbs {
+	padding: 8px;	
+	font-size: 12px;
+}
+
+.error {
+	border: 1px solid red;
+	padding: 5px 20px;
+	margin-top: 5px;
+	background-image: url(../images/cross.png);
+	background-repeat: no-repeat;
+	background-position:left;
+	background-color:#FFC;	
+}
+
+.login-info {
+	float: right;
+	font-size:14px;
+	color: #FFC;
+}
+
+.login-info span {
+	color: #fff;
+}
+
+#crud {
+	padding: 20px;	
+}
