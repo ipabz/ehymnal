@@ -50,6 +50,12 @@ $(window).load(function() {
         	<a title="<?=APP_NAME?>" href="<?=site_url('/home')?>">
                 
             </a>
+            <div class="search-cont">
+            	<?php print form_open('search/results/'.urlencode(set_value('keyword'))); ?>
+            	<input type="search" name="keyword" required="required" placeholder="Find songs here..." />
+            	<input type="submit" name="search" value="Find" />
+            	<?php print form_close(); ?>
+            </div>
         </div>
         <div id="main-navigation">
         	<?php $this->load->view('common/navigation'); ?>

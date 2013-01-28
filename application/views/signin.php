@@ -1,4 +1,4 @@
-<?php $this->load->view('common/slider'); ?>
+<br />
 <div class="left-container">
 <h2>Sign In</h2>
 <div style="width: 70%"><?=$msg?></div>

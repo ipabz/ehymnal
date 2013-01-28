@@ -3,9 +3,14 @@
 	Home
 </a>
 
-<a href="<?=site_url('search')?>">
-	Search
+<a href="<?=site_url('hymn/new_songs')?>">
+	New Songs
 </a>
+
+<a href="<?=site_url('hymn/most_popular')?>">
+	Top 10
+</a>
+
 <?php if (! $this->security_handler->secure_page()) { ?>
 <a href="<?=site_url('login')?>">
 	Sign In

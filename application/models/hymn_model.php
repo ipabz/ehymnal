@@ -11,7 +11,7 @@ class Hymn_model extends CI_Model {
 		$data = array(
 			'views_id' => uniqid(),
 			'hymn_id' => $hymn_id,
-			'date_viewed' => date('Y-m-d H:i:s')
+			'date_viewed' => @date('Y-m-d H:i:s')
 		);
 		
 		$this->db->insert(VIEWS_TABLE, $data);

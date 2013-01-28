@@ -16,6 +16,8 @@
         <div style="margin-top: 5px;">
         	<em class="date-added">( <?=$hymn['num_views']?> views )</em>
         </div>
+        <hr style="border: none; height: 1px; background: #ccc;" />
+        <br />
 	</div>
     <?php	
 	}

@@ -1,4 +1,4 @@
-<?php $this->load->view('common/slider'); ?>
+<br />
 <div class="left-container">
 <h2>Search</h2>
 <?=form_open('search/results/'.urlencode(set_value('keyword', $keyword)))?>
@@ -18,8 +18,9 @@
     <?php
 	}  else if ($this->input->post('keyword')) {
 	?>
+	<br />
     <div style="background:#CCCCCC; padding: 5px; border-top: 1px solid #999;">
-    	<b>Search Results</b> <em><?=$keyword?></em>
+    	<b>Search Results for </b> <em><?=$keyword?></em>
     </div>
     <?php
 	if(empty($searchResults)) {
@@ -43,8 +44,10 @@
 				<?=substr($hymn['description'],0,120)?>...
 			</div>
 			<div style="margin-top: 5px;">
-				<em class="date-added">( added <?=date('M d, Y', strtotime($hymn['date_added']))?> )</em>
+				<em class="date-added">( added <?=@date('M d, Y', @strtotime($hymn['date_added']))?> )</em>
 			</div>
+			<hr style="border: none; height: 1px; background: #ccc;" />
+        <br />
 		</div>
 		<?php
 		}

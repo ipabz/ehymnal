@@ -30,8 +30,10 @@
 			<?=substr($hymn['description'],0,120)?>...
 		</div>
         <div style="margin-top: 5px;">
-        	<em class="date-added">( added <?=date('M d, Y', strtotime($hymn['date_added']))?> )</em>
+        	<em class="date-added">( added <?=@date('M d, Y', @strtotime($hymn['date_added']))?> )</em>
         </div>
+         <hr style="border: none; height: 1px; background: #ccc;" />
+        <br />
 	</div>
     <?php	
 	}

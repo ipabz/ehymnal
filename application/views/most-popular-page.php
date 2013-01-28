@@ -1,4 +1,4 @@
-<?php $this->load->view('common/slider'); ?>
+<br />
 
 <div class="left-container">
 
@@ -20,6 +20,7 @@
         <div style="margin-top: 5px;">
         	<em class="date-added">( <?=$hymn['num_views']?> views )</em>
         </div>
+        
 	</div>
     <?php	
 	}
