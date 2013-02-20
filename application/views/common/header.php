@@ -47,20 +47,35 @@ $(window).load(function() {
 <body>
 	<div id="wrapper">
     	<div id="header">
-        	<a title="<?=APP_NAME?>" href="<?=site_url('/home')?>">
-                
+    		<div id="main-navigation">
+			<?php $this->load->view('common/navigation'); ?>
+		</div>
+    	
+    		<div id="church-name">
+			<div>Seventh-Day</div>
+		        <div>ADVENTIST</div>
+		        <div>Church</div>
+                </div>
             </a>
-            <div class="search-cont">
-            	<?php print form_open('search/results/'.urlencode(set_value('keyword'))); ?>
-            	<input type="search" name="keyword" required="required" placeholder="Find songs here..." />
-            	<input type="submit" name="search" value="Find" />
-            	<?php print form_close(); ?>
-            </div>
+            
+           
         </div>
-        <div id="main-navigation">
-        	<?php $this->load->view('common/navigation'); ?>
-        </div>
-		
+        <!--
+        
+	-->	
 		
 		
         <div id="main">
+        
+        	<div id="hbanner">
+        		<div id="htitle">E-Hymnal</div>
+        		<div class="search-cont">
+			    <?php print form_open('search/results/'.urlencode(set_value('keyword'))); ?>
+			    <input type="search" name="keyword" required="required" placeholder="Find songs here..." />
+			    <input type="submit" name="search" value="Find" />
+			    <?php print form_close(); ?>
+			</div>
+			<br class="clear" />
+			
+        	</div>
+        

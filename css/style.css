@@ -2,8 +2,7 @@ body {
 	margin: 20px 0px 20px 0px;
 	font-family:Arial, Helvetica, sans-serif;
 	font-size: 1em;	
-	background: #999;
-	/*background:#fff;*/
+	background: #006699;
 }
 
 #wrapper {
@@ -13,19 +12,34 @@ body {
 	box-shadow: 0px 0px 5px #990000;
 	-moz-box-shadow: 0px 0px 5px #990000;
 	-webkit-box-shadow: 0px 0px 5px #990000;*/
-	border: 1px solid #ccc;
-	background: #fff;
+	
+}
+
+#church-name {
+	width: 150px;
+	text-align: center;
+	padding-top: 5px;
+	color: #f7f7f7;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.breadcrumbs {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
 }
 
 #header {
-	background: url(../images/header3.png) no-repeat;
-	height: 107px;
+	/*background: url(../images/header3.png) no-repeat;*/
+	height: 80px;
 }
 
 #main-navigation {
 	padding: 8px 15px 8px 15px;
-	/*background: #315919;*/
-	background: #ccc url(../images/nav-bg.png) repeat-x;
+	float: right;
+	
 }
 
 #main-navigation a {
@@ -46,7 +60,12 @@ body {
 
 #main {
 	background: #fff;
-	min-height: 500px;	
+	min-height: 500px;
+	padding: 10px;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	box-shadow: 0px 0px 20px #333;
 }
 
 #footer {
@@ -59,31 +78,45 @@ a {
 	text-decoration: none;	
 }
 
+#hbanner {
+	background-color: #f7f7f7;
+	margin-bottom: 15px;
+}
+
+#htitle {
+	padding: 20px;
+	font-size: 32px;
+	font-weight: bold;
+	float: left;
+	color: maroon;
+}
+
 .mod-header {
-	background: #ccc;   
+	background: #006699;   
 	padding: 5px;
 	font-weight: bold;	
-	color: #990000;
+	color: #fff;
+	border-radius: 5px;
 }
 
 .left-container {
 	float: left;
-	width: 650px;
+	width: 600px;
 	padding: 10px;
+
 }
 
 .right-container {
 	float: right;
 	width: 250px;
-	padding: 10px;
-	background:#F5F5F5;
-	box-shadow: 0px 3px 4px #ccc;
-	-moz-box-shadow: 0px 3px 4px #ccc;
-	-webkit-box-shadow: 0px 3px 4px #ccc;
+	padding: 5px;
+	
 }
 
 .search-cont {
 	text-align: right;
+	padding-top: 20px;
+	padding-right: 10px;
 }
 
 .clear {
